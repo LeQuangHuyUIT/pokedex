@@ -92,5 +92,5 @@ if img_file:
                     image = Image.open(image_path)
 
                     display_basic_info(relevant_df.iloc[i], image, i)
-#                     display_base_stats_type_defenses(relevant_df[relevant_df['name'] == relevant_name[i]])
+                    display_base_stats_type_defenses(relevant_df[relevant_df['name'] == relevant_name[i]])
                     display_radar_chart(relevant_df[relevant_df['name'] == relevant_name[i]])
